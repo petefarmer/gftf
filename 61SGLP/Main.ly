@@ -41,6 +41,6 @@
 % \SoloFive
  }
 
-%\midi {}
+\midi {}
 } % score
 } % book

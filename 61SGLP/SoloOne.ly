@@ -14,7 +14,7 @@ SoloOne = {
  e''4 e'' e'' d''8  b' 
  
  a'8 g' a' ( ais'16 a'    g'8 ) e' d' e' ~  
- e'4.
+ e'2 r8
 
  }
  >>
