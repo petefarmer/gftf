@@ -1,27 +1,31 @@
 % Intro
-FigureOne = { \key e \minor 
+FigureOne = { 
  <<
    {
     \partial 8
      <fis' b'>16 <fis' b'>
 
-    \repeat volta 3 
+    \repeat volta 2 
     {
-     <fis' b'>8 s  s s  s s  s s
-     <e' a'>4 <fis' b'> s8 s s <fis' b'>16 <fis' b'>
+     <fis' b'>8 s  s s  s s  s <e' a'> ~
+     <e' a'>16  s <fis' b'>8 ~ <fis' b'>16 s16 s8 s s s <fis' b'>16 <fis' b'>
     }
+     <fis' b'>8 s  s s  s s  s <e' a'> ~
+     <e' a'>16 s  <fis' b'>8 ~ <fis' b'>16 s16 s8 s s s s
    }
    \\
    {
     \partial 8
      b8
 
-    \repeat volta 3 
+    \repeat volta 2 
     {
-     b b  b b  b b  b b
-     % ^\markup  {\teeny "Fig. I intro"} 
-     b b  b b  b b  b b
+     b8 b  b b  b b  b b
+     % ^\markup  {\teeny "Fig. one intro"} 
+     b8 b  b b  b b  b b
     }
+    b b  b b  b b  b b
+    b b  b b  b b  b b
    }
  >>
 }

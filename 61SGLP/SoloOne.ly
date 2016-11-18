@@ -1,7 +1,9 @@
 SoloOne = { 
  <<
  {
- e''4 ^\markup { \teeny "Solo I" } e'' e''8 e'' e'' e'' ~
+ e''4 %^\markup { \teeny "Solo I" } 
+ \mark \markup { \teeny \box Solo " " }
+ e'' e''8 e'' e'' e'' ~
  e''4 e'' e''8  e'' e'' e''  
  
  s4
