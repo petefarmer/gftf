@@ -20,56 +20,53 @@ FiguresFourAndFiveTab = {
  <d\6 g'\3>4
 
 % END FigureFour
-  e8 a e' 
+  e8\5 a\4 e'\3
   % ^\markup { \teeny "V" } 
-  e a d'
-  e a | cis'
-  d g d' ~ d'2 |
+  e\5 a\4 d'\3
+  e\5 a\4 | cis'\3
+  d\5 g\4 d'\3 ~ d'2\3 |
 
-   g8 (  fis16 e16   d8 )  c'8 (   b16 a16 g8 ) 
-   d'8  ( cis'16 b16 
+   g8\4 (  fis16\4 e16\4   d8\4 )  c'8\3 (   b16\3 a16\3 g8\3 ) 
+   d'8\2  ( cis'16\2 b16\2 ) % showing pull-off, not phrase
 
-  a8 ) b8 
-  b' b
-  a' b
-  b'4
+  a8\3 \glissando b8\3 
+  b'\1 b\3
+  a'\1 b\3
+  b'4\1
 
- a,4  % ^\markup { \teeny "IV" } 
- <a e'>4 
+ a,4\5  % ^\markup { \teeny "IV" } 
+ <a\4 e'\3>4 
  r8
- <a d'>8 ~ <a d'>
+ <a\4 d'\3>8 ~ <a\4 d'\3>
  r8  
  |
- <a cis'>4
+ <a\4 cis'\3>4
   r8
-  <g d'>8 ~ <g d'>
+  <g\4 d'\3>8 ~ <g\4 d'\3>
 
-  <g d'>8 ~ <g d'>
-  <g d'> \glissando
-  <a e'>4 <a e'>4  <a d'>8 <a e'>4 <c' g'>8 ~
+  <g\4 d'\3>8 ~ <g\4 d'\3>
+  <g\4 d'\3> \glissando
+  <a\4 e'\3>4 <a\4 e'\3>4  <a\4 d'\3>8 <a\4 e'\3>4 <c'\4 g'\3>8 ~
 
 
- <c' g'>8  <b g'>8 <c' g'>8 <b g'>8
- <c' g'>8 <b g'>8 ~
- <d g'>4
+ <c'\4 g'\3>8  <b\4 g'\3>8 <c'\4 g'\3>8 <b\4 g'\3>8
+ <c'\4 g'\3>8 <b\4 g'\3>8 ~
+ <d\6 g'\3>4
 
 % END FigureFour
-  e8 a e' 
-  % ^\markup { \teeny "V" } 
-  ^\markup {\teeny \italic "indicate VV^ picking pattern"}
-  e a d'
-  e a | cis'
-  d g d' ~ d'2 |
+  e8\5 a\4 e'\3
+  e\5 a\4 d'\3
+  e\5 a\4 | cis'\3
+  d\5 g\4 d'\3 ~ d'2\3 |
 
-   g8 
-  ^\markup {\teeny "need to mark these as pulls in bend.ly"}
-   (  fis16 e16   d8 )  c'8 (   b16 a16 g8 ) 
-   d'8  ( cis'16 b16 
-   a8 ) b8 
+   g8\4 ( 
+     fis16\4 e16\4   d8\4)   c'8\3 ( b16\3 a16\3 g8\3 )
+   d'8\2  ( cis'16\2 b16\2 )
+   a8\3  \glissando b8\3 
   ^\markup {"D.S. 2ª alla coda"}
-  b'8 b16 \glissando d' 
-  d''8 d'16 \glissando e' 
-  e''4
+  b'8\1 b16\3 \glissando d'\3
+  d''8 d'16\3 \glissando e'\3 
+  e''4\1
   \bar "||"
 }
 

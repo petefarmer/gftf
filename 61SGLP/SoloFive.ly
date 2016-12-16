@@ -15,7 +15,8 @@ SoloFive = {
 
  \grace e''8 \glissando g'' g'' d''' g'' 
  cis''' g'' b'' g'' 
- a'' \grace g'' (a'') \grace g'' (a'') a'' ~
+ a'' \grace g'' (a'') a'' \grace g'' (a'') ~
+% a'' \grace g'' (a'') \grace g'' (a'') a'' ~
  a'' (g'')  e'' a'' \glissando 
 b'' fis''' e''' b'' \glissando cis''' \ottava #+1 a''' fis''' b'''8  \glissando 
 \times 2/3 {a''' fis''' e'''}
@@ -37,7 +38,8 @@ b'' fis''' e''' b'' \glissando cis''' \ottava #+1 a''' fis''' b'''8  \glissando
 
  \grace e''8 \glissando g'' g'' d''' g'' 
  cis''' g'' b'' g'' 
- a'' \grace g'' (a'') \grace g'' (a'') a'' ~
+ a'' \grace g'' (a'') a'' \grace g'' (a'') ~
+% a'' \grace g'' (a'') \grace g'' (a'') a'' ~
  a'' (g'')  e'' a'' \glissando 
 b'' fis''' e''' b'' \glissando cis''' \ottava #+1 a''' fis''' b'''8  \glissando 
 \times 2/3 {a''' fis''' e'''}

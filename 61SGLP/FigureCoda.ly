@@ -42,9 +42,9 @@ FigureCoda = {
  }
 
  \time 3/4
- e4
+ e4.
  <g b d' g' d'' g''>8 ~ <g b d' g' d'' g''> 
- <d' a' d'' fis''>8 ~ <d' a' d'' fis''> 
+ <d' a' d'' fis''>8
  \bar "|."
 }
 

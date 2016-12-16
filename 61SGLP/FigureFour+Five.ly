@@ -21,16 +21,15 @@ FiguresFourAndFive = {
  <d' g''>4
 
 % END FigureFour
-  e'8 a' e'' 
-  % ^\markup { \teeny "V" } 
-  e' a' d''
-  e' a' | cis''
-  d' g' d'' ~ d''2 |
+  e'8\downbow a'\downbow e''\upbow
+  e'\downbow a'\downbow d''\upbow
+  e'\downbow a'\downbow | cis''\upbow
+  d'\downbow g'\downbow d''\upbow ~ d''2 |
 
    g'8 (  fis'16 e'16   d'8 )  c''8 (   b'16 a'16 g'8 ) 
    d''8  ( cis''16 b'16 
 
-  a'8 ) b'8 
+  a'8 ) \glissando b'8 
   b'' b'
   a'' b'
   b''4
