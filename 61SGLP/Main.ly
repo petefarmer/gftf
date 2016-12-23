@@ -15,6 +15,8 @@
 \include "FigureThreeDrums.ly"
 \include "FigureFour+Five.ly"
 \include "FigureFour+FiveTab.ly"
+\include "FigureFour+FiveBass.ly"
+\include "FigureFour+FiveDrums.ly"
 \include "SoloOne.ly"
 \include "SoloOneTab.ly"
 \include "SoloTwo.ly"
@@ -25,8 +27,12 @@
 \include "SoloFourTab.ly"
 \include "SoloFive.ly"
 \include "SoloFiveTab.ly"
+\include "SoloBass.ly"
+\include "SoloDrums.ly"
 \include "FigureCoda.ly"
 \include "FigureCodaTab.ly"
+\include "FigureCodaBass.ly"
+\include "FigureCodaDrums.ly"
 
 \book {
  \header {
@@ -64,7 +70,7 @@
   \FigureCoda
   } % Staff
 
- \new TabStaff {
+  \new TabStaff {
   \FigureOneTab
   \FigureTwoTab
   \repeat volta 2 {
@@ -90,6 +96,9 @@
    \FigureThreeBass
    \FigureTwoBass
   }
+  \FiguresFourAndFiveBass
+  \SoloBass
+  \FigureCodaBass
  }
  \new DrumStaff {
   \set Staff.instrumentName = #"Drums" 
@@ -100,9 +109,20 @@
    \FigureThreeDrums
    \FigureTwoDrums
   }
+   \FiguresFourAndFiveDrums
+   \SoloDrums
+   \FigureCodaDrums
   }
  }
  >> % StaffGroup
+ \layout {
+  \context {
+   \Score {
+    \override StaffGrouper.staff-staff-spacing.padding = #5
+    \override StaffGrouper.staff-staff-spacing.basic-distance = #5
+   }
+  }
+ }
 %\midi {}
 } % score
 } % book

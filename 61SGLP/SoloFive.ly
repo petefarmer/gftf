@@ -5,8 +5,10 @@ SoloFive = {
 \override Glissando #'springs-and-rods = #ly:spanner::set-spacing-rods 
  \grace e''8 \glissando g''8 g'' d''' g'' 
  cis''' g'' b'' g'' 
- a'' \grace g'' (a'') a'' \grace g'' (a'') ~
+ \bendOn
+ a'' \bendGrace g'' (a'') a'' \bendGrace g'' (a'') ~
  a'' (g'') e''4
+ \bendOff
 
  \grace e''8 \glissando g'' g'' d''' g'' 
  cis''' g'' b'' g'' 

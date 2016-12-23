@@ -1,5 +1,5 @@
 % [B] section
-FiguresFourAndFiveTab = { 
+FiguresFourAndFiveBass = { 
  a,4 
  <a e'>4 
  r8
