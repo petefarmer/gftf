@@ -6,7 +6,7 @@ SoloFiveTab = {
  \grace e'8\3 \glissando g'8\3 g'\3 d''\2 g'\3 
  cis''\2 g'\3 b'\2 g'\3 
  \bendOn
- a'\2 \bendGrace g'\3 (a'\3) a'\2 \bendGrace g'\3 (a'\3) ~
+ a'\2 \bendGrace g'\3 (a'\3) a'\2 \bendGrace g'\3 ( \holdBend a'\3) ~
  a'\3 (g'\3) e'4\3
  \bendOff
 

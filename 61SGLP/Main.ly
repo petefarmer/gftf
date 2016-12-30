@@ -1,6 +1,7 @@
 % '61 SGLP
 \version "2.18.0"
-\include "bend.ly" % one-pass complier, needs to be first
+%\include "bend.ly" % one-pass complier, needs to be first
+\include "definitions.ily"
 \include "FigureOne.ly"
 \include "FigureOneTab.ly"
 \include "FigureOneBass.ly"
@@ -71,6 +72,8 @@
   } % Staff
 
   \new TabStaff {
+%  \tabFullNotation
+  \hideSplitTiedTabNotes
   \FigureOneTab
   \FigureTwoTab
   \repeat volta 2 {
@@ -122,6 +125,7 @@
     \override StaffGrouper.staff-staff-spacing.basic-distance = #5
    }
   }
+  \context { \TabStaff \remove Clef_engraver }
  }
 %\midi {}
 } % score

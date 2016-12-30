@@ -21,10 +21,12 @@ FiguresFourAndFive = {
  <d' g''>4
 
 % END FigureFour
-  e'8\downbow a'\downbow e''\upbow
-  e'\downbow a'\downbow d''\upbow
-  e'\downbow a'\downbow | cis''\upbow
-  d'\downbow g'\downbow d''\upbow ~ d''2 |
+% downbow is maybe too much markup, and implied by upbow indicators.
+  e'8_\downbow a'_\downbow e''\upbow
+  e'_\downbow a'_\downbow d''\upbow
+  e'_\downbow a'_\downbow | cis''\upbow
+  d'_\downbow g'_\downbow d''\upbow ~ d''2 |
+
 
    g'8 (  fis'16 e'16   d'8 )  c''8 (   b'16 a'16 g'8 ) 
    d''8  ( cis''16 b'16 
