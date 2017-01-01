@@ -1,39 +1,26 @@
 % '61 SGLP
 \version "2.18.0"
-%\include "bend.ly" % one-pass complier, needs to be first
-\include "definitions.ily"
-\include "FigureOne.ly"
-\include "FigureOneTab.ly"
-\include "FigureOneBass.ly"
-\include "FigureOneDrums.ly"
-\include "FigureTwo.ly"
-\include "FigureTwoTab.ly"
-\include "FigureTwoBass.ly"
-\include "FigureTwoDrums.ly"
-\include "FigureThree.ly"
-\include "FigureThreeTab.ly"
-\include "FigureThreeBass.ly"
-\include "FigureThreeDrums.ly"
-\include "FigureFour+Five.ly"
-\include "FigureFour+FiveTab.ly"
-\include "FigureFour+FiveBass.ly"
-\include "FigureFour+FiveDrums.ly"
-\include "SoloOne.ly"
-\include "SoloOneTab.ly"
-\include "SoloTwo.ly"
-\include "SoloTwoTab.ly"
-\include "SoloThree.ly"
-\include "SoloThreeTab.ly"
-\include "SoloFour.ly"
-\include "SoloFourTab.ly"
-\include "SoloFive.ly"
-\include "SoloFiveTab.ly"
+\include "definitions.ily" % one-pass complier, needs to be first
+\include "IntroGuitar.ly"
+\include "IntroGuitarTab.ly"
+\include "IntroBass.ly"
+\include "IntroDrums.ly"
+\include "SectionAGuitar.ly"
+\include "SectionBGuitar.ly"
+\include "SectionAGuitarTab.ly"
+\include "SectionBGuitarTab.ly"
+\include "SoloGuitar.ly"
+\include "SoloGuitarTab.ly"
+\include "SectionABass.ly"
+\include "SectionBBass.ly"
+\include "SectionADrums.ly"
+\include "SectionBDrums.ly"
 \include "SoloBass.ly"
 \include "SoloDrums.ly"
-\include "FigureCoda.ly"
-\include "FigureCodaTab.ly"
-\include "FigureCodaBass.ly"
-\include "FigureCodaDrums.ly"
+\include "CodaGuitar.ly"
+\include "CodaGuitarTab.ly"
+\include "CodaBass.ly"
+\include "CodaDrums.ly"
 
 \book {
  \header {
@@ -54,67 +41,49 @@
   \tempo 4 = 160 |
 %  \override Score.MetronomeMark.font-size = #0.1
 %  \override Score.MetronomeMark.font-family = #'serif
-  \FigureOne 
-  \FigureTwo
+  \IntroGuitar
   \repeat volta 2 {
-   \FigureThree
-   \FigureTwo
+   \SectionAGuitar
   }
+  \SectionBGuitar
 
-  \FiguresFourAndFive
-
-  \SoloOne
-  \SoloTwo
-  \SoloThree
-  \SoloFour
-  \SoloFive
-  \FigureCoda
+  \SoloGuitar
+  \CodaGuitar
   } % Staff
 
   \new TabStaff {
 %  \tabFullNotation
   \hideSplitTiedTabNotes
-  \FigureOneTab
-  \FigureTwoTab
+  \IntroGuitarTab
   \repeat volta 2 {
-   \FigureThreeTab
-   \FigureTwoTab
+   \SectionAGuitarTab
   }
-  \FiguresFourAndFiveTab
-
-  \SoloOneTab
-  \SoloTwoTab
-  \SoloThreeTab
-  \SoloFourTab
-  \SoloFiveTab
-  \FigureCodaTab
+  \SectionBGuitarTab
+  \SoloGuitarTab
+  \CodaGuitarTab
  }
  \new Staff {
   \set Staff.instrumentName = #"Bass" 
   \clef "bass"
   \key e \minor
-  \FigureOneBass
-  \FigureTwoBass
+  \IntroBass
   \repeat volta 2 {
-   \FigureThreeBass
-   \FigureTwoBass
+   \SectionABass
   }
-  \FiguresFourAndFiveBass
+  \SectionBBass
   \SoloBass
-  \FigureCodaBass
+  \CodaBass
  }
  \new DrumStaff {
   \set Staff.instrumentName = #"Drums" 
   \new DrumVoice {
-  \FigureOneDrums
-  \FigureTwoDrums
+  \IntroDrums
   \repeat volta 2 {
-   \FigureThreeDrums
-   \FigureTwoDrums
+   \SectionADrums
   }
-   \FiguresFourAndFiveDrums
+   \SectionBDrums
    \SoloDrums
-   \FigureCodaDrums
+   \CodaDrums
   }
  }
  >> % StaffGroup

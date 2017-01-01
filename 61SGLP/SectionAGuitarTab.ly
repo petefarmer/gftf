@@ -1,11 +1,6 @@
-FigureThreeTab = { 
-% \mark \markup { \musicglyph #"scripts.segno" \teeny \box A " "}
- e,4. % ^\markup { \teeny "III" } 
+SectionAGuitarTab = { 
+ e,4. 
  \autoBeamOff
-% no need for chord diagrams here...
-% <g b d' g' d'' g''>8 ^\markup {\fret-diagram #"s:0.7;6-3;5-2;4-o;3-o;2-3;1-3;" } ~ <g b d' g' d'' g''> 
-% <d' a' d'' fis''>8 ^\markup {\fret-diagram #"s:0.7;6-x;5-x;4-o;3-2;2-3;1-2;"} ~ <d' a' d'' fis''> 
-% <a e' a' cis'' e''>8 ^\markup {\fret-diagram #"s.0.7;6-x;5-o;4-2;3-2;2-2;1-o;"} ~
  <g, b, d g d' g'>8 ~ <g, b, d g d' g'> 
  <d a d' fis'>8 ~ <d a d' fis'> 
  <a, e a cis' e'>8 ~
@@ -26,7 +21,7 @@ FigureThreeTab = {
  \autoBeamOn
 
   a,8
-    a, (b,) d a, (b,) d (e)
+    a, b, d a, b, d e
 \break
  e,4.
  \autoBeamOff
@@ -41,4 +36,10 @@ FigureThreeTab = {
     g,
   <a, e a>8 
     g,4. \accent
+
+ b,8\6 e\5 (fis\5) b\4 
+ e\5 (fis\5)  a\4 d\5
+ (e\5) g\4  a,\6 (b,\6)
+ d\5 g,4.\6 \accent
+
 }

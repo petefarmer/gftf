@@ -1,5 +1,6 @@
+
 % Intro
-FigureOneTab = { 
+IntroGuitarTab = { 
  <<
    {
     \partial 8
@@ -21,14 +22,16 @@ FigureOneTab = {
     \repeat volta 2 
     {
      b,8\6 b,\6  b,\6 b,\6  b,\6 b,\6  b,\6 b,\6
-     % ^\markup  {\teeny "Fig. one intro"} 
-%     b8 b  b b  b b  b b
      b,8\6 b,\6  b,\6 b,\6  b,\6 b,\6  b,\6 b,\6
     }
-%    b b  b b  b b  b b
      b,8\6 b,\6  b,\6 b,\6  b,\6 b,\6  b,\6 b,\6
      b,8\6 b,\6  b,\6 b,\6  b,\6 b,\6  b,\6 b,\6
-%    b b  b b  b b  b b
    }
  >>
+
+ b,8\6 e\5 (fis\5) b\4 
+ e\5 (fis\5)  a\4 d\5
+ (e\5) g\4  a,\6 (b,\6)
+ d\5 g,4.\6 \accent
+
 }

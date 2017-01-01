@@ -1,7 +1,7 @@
 % [B] section
-FiguresFourAndFive = { 
- \mark \markup { \teeny \box B " " }
- a4 % ^\markup { \teeny "IV" } 
+SectionBGuitar = { 
+ \mark \markup { \box B " " }
+ a4 
  <a' e''>4 
  r8
  <a' d''>8 ~ <a' d''>
@@ -20,7 +20,6 @@ FiguresFourAndFive = {
  <c'' g''>8 <b' g''>8 ~
  <d' g''>4
 
-% END FigureFour
 % downbow is maybe too much markup, and implied by upbow indicators.
   e'8_\downbow a'_\downbow e''\upbow
   e'_\downbow a'_\downbow d''\upbow
@@ -36,7 +35,7 @@ FiguresFourAndFive = {
   a'' b'
   b''4
 
- a4  % ^\markup { \teeny "IV" } 
+ a4  
  <a' e''>4 
  r8
  <a' d''>8 ~ <a' d''>
@@ -55,14 +54,10 @@ FiguresFourAndFive = {
  <c'' g''>8 <b' g''>8 ~
  <d' g''>4
 
-% END FigureFour
-  e'8 a' e'' 
-  % ^\markup { \teeny "V" } 
-  ^\markup {\teeny \italic "indicate VV^ picking pattern"}
-  e' a' d''
-  e' a' | cis''
-  d' g' d'' ~ d''2 |
-
+  e'8_\downbow a'_\downbow e''\upbow
+  e'_\downbow a'_\downbow d''\upbow
+  e'_\downbow a'_\downbow | cis''\upbow
+  d'_\downbow g'_\downbow d''\upbow ~ d''2 |
    g'8 
   ^\markup {\teeny "need to mark these as pulls in bend.ly"}
    (  fis'16 e'16   d'8 )  c''8 (   b'16 a'16 g'8 ) 
@@ -74,4 +69,3 @@ FiguresFourAndFive = {
   e'''4
   \bar "||"
 }
-

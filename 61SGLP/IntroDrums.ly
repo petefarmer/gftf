@@ -1,10 +1,10 @@
 % Intro
-FigureOneDrums = { 
+IntroDrums = { 
  \drummode {
  <<
    {
     \partial 8
-      sn8
+      s8
 
     \repeat volta 2 
     {
@@ -17,7 +17,7 @@ FigureOneDrums = {
    \\
    {
     \partial 8
-     bd8
+     s8
 
     \repeat volta 2 
     {
@@ -29,5 +29,11 @@ FigureOneDrums = {
      bd4 bd bd bd
    }
  >>
+
+  sn8 sn sn sn
+  sn8 sn sn sn
+  sn8 sn sn sn
+  sn8 sn sn sn
+
  } % drummode
 }

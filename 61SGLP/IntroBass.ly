@@ -1,9 +1,9 @@
 % Intro
-FigureOneBass = { 
+IntroBass = { 
  <<
    {
     \partial 8
-     <fis b>16 <fis b>
+     s16 s
 
     \repeat volta 2 
     {
@@ -16,7 +16,7 @@ FigureOneBass = {
    \\
    {
     \partial 8
-     b,8
+     s8
 
     \repeat volta 2 
     {
@@ -28,4 +28,10 @@ FigureOneBass = {
     b, b,  b, b, b, b,  b, b,
    }
  >>
+
+ b,8 e fis b 
+ e fis  a d
+ e g  a, b,
+ d g,4. %\accent
+
 }
