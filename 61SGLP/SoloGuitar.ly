@@ -15,15 +15,13 @@ SoloGuitar = {
  e''4 e'' e''8 \glissando d'' d'' \glissando e'' ~
  e''4 e'' e'' d''8  b' 
  
- a'8 g' a' ( ais'16 a'    g'8 ) e' d' e' ~  
+ a'8 g' \bendOn a' ^(ais'16)  ^(a') \bendOff   g'8 e' d' e' ~  
  e'2 r8
 
  }
  >>
 
- e'16  %^\markup {\teeny "Solo II"} 
- (d') b (a) g (e)
-
+ e'16 d' b a g e
  e'16 d' b a g e
  e'16 d' b a g e
  e'16 d' b a g e
